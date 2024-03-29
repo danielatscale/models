@@ -1,6 +1,8 @@
 [submodule "shared_bu"]
 	path = shared_bu
 	url = https://github.com/danielatscale/shared_bu
+	branch = main
 [submodule "shared_it"]
 	path = shared_it
 	url = https://github.com/danielatscale/shared_it
+	branch = main
