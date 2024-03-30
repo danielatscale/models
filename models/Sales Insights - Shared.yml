@@ -1,5 +1,14 @@
 unique_name: Sales Insights - Shared
 object_type: model
 label: Sales Insights - Shared
-metrics: []
-relationships: []
+metrics:
+  - unique_name: Sales Amount
+relationships:
+  - unique_name: FACTINTERNETSALES_productkey_to_Product_Product Item
+    from:
+      dataset: FACTINTERNETSALES
+      join_columns:
+        - productkey
+    to:
+      dimension: Product
+      level: Product Item
