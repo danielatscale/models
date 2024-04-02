@@ -2,9 +2,9 @@ unique_name: Sales Insights - Shared
 object_type: model
 label: Sales Insights - Shared
 metrics:
-  - unique_name: Sales Amount
+  - unique_name: salesamount1
   - unique_name: Avg Order Sales Amount
-  - unique_name: Order Quantity
+  - unique_name: orderquantity1
 relationships:
   - unique_name: FACTINTERNETSALES_productkey_to_Product_Product Item
     from:
