@@ -13,7 +13,7 @@ relationships:
         - productkey
     to:
       dimension: Product
-      level: Product Item
+      level: Product Key
   - unique_name: FACTINTERNETSALES (1)_productkey_to_Product_Product Item
     from:
       dataset: FACTINTERNETSALES (1)
@@ -21,4 +21,4 @@ relationships:
         - productkey
     to:
       dimension: Product
-      level: Product Item
+      level: Product Key
