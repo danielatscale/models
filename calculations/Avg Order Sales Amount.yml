@@ -2,4 +2,4 @@ unique_name: Avg Order Sales Amount
 object_type: metric_calc
 label: Avg Order Sales Amount
 expression: ([Measures].[salesamount1] / [Measures].[orderquantity1])
-is_hidden: false
+is_hidden: true
